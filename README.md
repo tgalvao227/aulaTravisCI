@@ -1,2 +1,7 @@
-# aulaTravisCI
-thiago
+language: python
+python:
+  - "3.4"
+before_script:
+  - cd src
+script:
+  - python testes.py
